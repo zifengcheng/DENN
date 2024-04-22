@@ -8,16 +8,10 @@ pip install -r requirements.txt
 ```
 
 
-### FewNERD
-```
-bash bash/fewnerd/run_mode.sh [gpu_id] [mode] [N] [K]
-    - mode: intra/inter
-    - N, K: 5 1, 5 5, 10 1
-    e.g., bash bash/fewnerd/run_mode.sh 0 inter 5 1
-bash bash/fewnerd/10wat_5shot_mode.sh [gpu_id] [mode]
-    - mode: intra/inter
-    e.g., bash/fewnerd/10wat_5shot_mode.sh 0 inter
-```
+### Datasets
+
+For the AAPD and RCV1-V2 datasets, we use the division following SGM. You can find it from the code of SGM (https://github.com/lancopku/SGM).
+For the EURLEX-57K, you can download.
 
 
 # Contact
