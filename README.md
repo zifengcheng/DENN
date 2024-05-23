@@ -15,14 +15,20 @@ For the AAPD and RCV1-V2 datasets, we use the division following SGM. You can fi
 For the EURLEX-57K, you can download from https://github.com/iliaschalkidis/lmtc-eurlex57k.
 
 ### Training
-
+For the AAPD dataset:
 ```
 !bash run_AAPD.sh 0.1 0.05 30
 ```
 
+For the RCV1-V2 dataset:
+```
+!bash run_RCV1-V2.sh 0.3 0.05 40
+```
+
+
 ### Test
 
-You can download our [checkpoint]() and use it to test.
+You can download our well-trianed [checkpoint]() and use it to test.
 
 # Contact
 If there are any questions, please feel free to contact me: Zifeng Cheng (chengzf@smail.nju.edu.cn).
