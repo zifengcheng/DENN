@@ -28,7 +28,7 @@ For the RCV1-V2 dataset:
 
 ### Test
 
-You can download our well-trianed [checkpoint]() and use it to test.
+You can download our well-trianed [checkpoint](https://drive.google.com/drive/folders/1ulGsIsFZ_eaitAc_yKx4tCf6RrV0QlNB) and use it to test.
 
 # Contact
 If there are any questions, please feel free to contact me: Zifeng Cheng (chengzf@smail.nju.edu.cn).
