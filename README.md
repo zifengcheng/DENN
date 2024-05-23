@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 For the AAPD and RCV1-V2 datasets, we use the division following SGM. You can find it from the code of [SGM](https://github.com/lancopku/SGM).
 
-For the EURLEX-57K, you can download.
+For the EURLEX-57K, you can download from https://github.com/iliaschalkidis/lmtc-eurlex57k.
 
 
 # Contact
