@@ -21,7 +21,7 @@ def get_args_parser():
 
     parser.add_argument('--root', default='../../DataSet/AAPD', type=str)
     parser.add_argument('--dataset_name', default='AAPD', type=str, help='AAPD or RCV1-V2')
-    parser.add_argument('--setting', default='F', type=str, help='{F, P, PO, OP, OPON}', help='not used in this paper')
+    parser.add_argument('--setting', default='F', type=str, help='{F, P, PO, OP, OPON}, not used in this paper')
     parser.add_argument('--percentage', default=1.0, type=float, help='not used in this paper')
     
     parser.add_argument('--gpu', default='0,1', type=str)
@@ -36,11 +36,7 @@ def get_args_parser():
     parser.add_argument('--beta', default=0.0, type=float, help='not used in this paper')
     parser.add_argument('--k', default=5, type=int)
     
-    parser.add_argument('--loss', default='BCE', type=str, help='{BCE, AN, WAN, AN-LS, EPR, ROLE}', help='not used in this paper')
-    parser.add_argument('--an_ls_epsilon', default=0.1, type=float, help='not used in this paper')
-    parser.add_argument('--epr_k_type', default='GEN', type=str, help='{SET, GEN}, not used in this paper')
-    parser.add_argument('--epr_k', default=1., type=float, help='not used in this paper')
-    parser.add_argument('--epr_lam', default=1., type=float, help='not used in this paper')
+    parser.add_argument('--loss', default='BCE', type=str, help='{BCE, AN, WAN, AN-LS, EPR, ROLE}, not used in this paper')
 
     return parser.parse_args()
 
