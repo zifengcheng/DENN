@@ -65,7 +65,7 @@ def load_bert_input(name, split, root):
             texts_path = os.path.join(root, f'text_{split}')
         if name == 'RCV1-V2':
             texts_path = os.path.join(root, f'{split}.src')
-        tokenizer = BertTokenizerFast.from_pretrained('../bert-base-uncased')
+        tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
         if name != 'EUR':
             encoding = tokenizer(read_texts(texts_path), return_tensors='pt', max_length=320, padding=True, truncation=True)
         else:
