@@ -290,7 +290,7 @@ def __main__():
     
     #tp1, tp3, tp5, tn3, tn5, tp, tr, tf1, thl, tt = eval_222(args, model, test_dataloader, features, labels, item, threshold, index_1, index_2, index_3, index_4)
     tp1, tp3, tp5, tn3, tn5, tp, tr, tf1, thl, tt = eval_222(args, model, test_dataloader, features, labels, item, threshold)
-    #print(f'Final: (P@1={tp1:.4f};P@3={tp3:.4f};P@5={tp5:.4f};n@3={tn3:.4f};n@5={tn5:.4f};P={tp:.3f};R={tr:.3f};F1={tf1:.3f}).')
+    print(f'Final: (P@1={tp1:.4f};P@3={tp3:.4f};P@5={tp5:.4f};n@3={tn3:.4f};n@5={tn5:.4f};P={tp:.3f};R={tr:.3f};F1={tf1:.3f}).')
 
 
 if __name__ == '__main__':
