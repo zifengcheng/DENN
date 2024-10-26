@@ -1,11 +1,12 @@
 import torch.nn as nn
-from transformers import BertModel
-
+#from transformers import BertModel
+from transformers import AutoModel
 
 class Model(nn.Module):
     def __init__(self, num_labels):
         super(Model, self).__init__()
-        self.bert = BertModel.from_pretrained('../bert-base-uncased')
+        #self.bert = BertModel.from_pretrained('bert-base-uncased')
+        self.bert = AutoModel.from_pretrained('../bert-base-uncased')
         self.fc = nn.Linear(self.bert.config.hidden_size, num_labels)
         self.dropout = nn.Dropout(0.1)
 
